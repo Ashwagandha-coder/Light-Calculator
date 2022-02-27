@@ -9,4 +9,9 @@
     <string name="num7">7</string>
     <string name="num8">8</string>
     <string name="num9">9</string>
+    <string name="sumChisel">+</string>
+    <string name="minusChisel">-</string>
+    <string name="proizvedenieChisel">*</string>
+    <string name="delenieChisel">/</string>
+    <string name="ResultOperation">Result</string>
 </resources>
