@@ -6,13 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/num8"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="298dp" />
 
     <EditText
         android:id="@+id/Edit"
@@ -98,6 +91,14 @@
         tools:layout_editor_absoluteY="302dp" />
 
     <Button
+        android:id="@+id/num8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="@string/num8"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <Button
         android:id="@+id/num9"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -109,7 +110,7 @@
         android:id="@+id/sum"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:text=""
+        android:text="@string/sumChisel"
         tools:layout_editor_absoluteX="270dp"
         tools:layout_editor_absoluteY="151dp" />
 
@@ -117,7 +118,7 @@
         android:id="@+id/minus"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:text="Button"
+        android:text="@string/minusChisel"
         tools:layout_editor_absoluteX="335dp"
         tools:layout_editor_absoluteY="223dp" />
 
@@ -125,7 +126,7 @@
         android:id="@+id/proizvedenie"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:text="Button"
+        android:text="@string/proizvedenieChisel"
         tools:layout_editor_absoluteX="262dp"
         tools:layout_editor_absoluteY="283dp" />
 
@@ -133,7 +134,7 @@
         android:id="@+id/delenie"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:text="Button"
+        android:text="@string/delenieChisel"
         tools:layout_editor_absoluteX="335dp"
         tools:layout_editor_absoluteY="342dp" />
 
@@ -141,7 +142,7 @@
         android:id="@+id/ResultButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="@string/ResultOperation"
         tools:layout_editor_absoluteX="9dp"
         tools:layout_editor_absoluteY="428dp" />
 
