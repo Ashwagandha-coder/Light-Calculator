@@ -11,16 +11,17 @@
         android:id="@+id/Edit"
         android:layout_width="129dp"
         android:layout_height="48dp"
-        android:layout_marginTop="52dp"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/EditText"
         android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.471"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:autofillHints="" />
+        app:layout_constraintVertical_bias="0.09" />
 
     <Button
         android:id="@+id/num1"
