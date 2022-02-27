@@ -92,15 +92,18 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:text="@string/num8"
-        tools:layout_editor_absoluteX="91dp"
-        tools:layout_editor_absoluteY="298dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/num9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/num9"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:text="@string/num9"
-        tools:layout_editor_absoluteX="174dp"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="298dp" />
 
     <Button
@@ -132,8 +135,9 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:text="@string/proizvedenieChisel"
-        tools:layout_editor_absoluteX="262dp"
-        tools:layout_editor_absoluteY="283dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/delenie"
