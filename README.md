@@ -1,2 +1,4 @@
-# Light-Calculator
-Light Calculator
+# Deprecated
+
+## Description 
+Old project
